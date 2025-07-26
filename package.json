@@ -1,0 +1,36 @@
+{
+  "name": "minecraft-telegram-bot-system",
+  "version": "1.0.0",
+  "description": "نظام متكامل لإنشاء وإدارة بوتات ماينكرافت Java و Bedrock عبر بوت التلغرام",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "telegram",
+    "java",
+    "bedrock",
+    "mineflayer",
+    "bedrock-protocol",
+    "aternos"
+  ],
+  "author": "Minecraft Bot System Developer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/minecraft-telegram-bot-system.git"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.47.0",
+    "mineflayer": "^4.30.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  }
+}
